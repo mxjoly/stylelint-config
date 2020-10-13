@@ -1,0 +1,33 @@
+{
+  "name": "stylelint-config",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A shared Stylelint config for all the @mxjoly packages.",
+  "bin": "init.js",
+  "author": "mxjoly <maxime.joly2808@gmail.com>",
+  "license": "MIT",
+  "keywords": ["stylelint", "config"],
+  "devDependencies": {
+    "@mxjoly/prettier-config": "^1.0.0",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.1.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.1.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0"
+  }
+}
