@@ -8,11 +8,16 @@
   "author": "mxjoly <maxime.joly2808@gmail.com>",
   "license": "MIT",
   "keywords": ["stylelint", "config"],
+  "scripts": {
+    "deps:check": "ncu",
+    "deps:upgrade": "ncu -i"
+  },
   "repository": "git+https://github.com/mxjoly/stylelint-config.git",
   "bugs": "https://github.com/mxjoly/stylelint-config/issues",
   "homepage": "https://github.com/mxjoly/stylelint-config#readme",
   "devDependencies": {
     "@mxjoly/prettier-config": "^1.0.0",
+    "npm-check-updates": "^9.1.0",
     "prettier": "^2.1.2",
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
