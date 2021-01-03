@@ -16,8 +16,8 @@
   "bugs": "https://github.com/mxjoly/stylelint-config/issues",
   "homepage": "https://github.com/mxjoly/stylelint-config#readme",
   "devDependencies": {
-    "@mxjoly/prettier-config": "^1.0.0",
-    "prettier": "^2.1.2",
+    "@mxjoly/prettier-config": "^1.1.0",
+    "prettier": "^2.2.1",
     "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recess-order": "^2.3.0",
@@ -27,7 +27,7 @@
     "stylelint-scss": "^3.18.0"
   },
   "peerDependencies": {
-    "prettier": "^2.1.2",
+    "prettier": "^2.2.1",
     "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recess-order": "^2.3.0",
