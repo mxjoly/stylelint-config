@@ -1,15 +1,19 @@
 module.exports = {
   extends: [
     'stylelint-prettier/recommended',
-    'stylelint-config-recommended-scss',
     'stylelint-config-recess-order',
+    'stylelint-config-standard-scss',
   ],
-  plugins: ['stylelint-scss', 'stylelint-prettier'],
+  plugins: ['stylelint-prettier'],
   rules: {
     'prettier/prettier': true,
+    'string-quotes': 'single',
     'color-no-invalid-hex': true,
+    'color-function-notation': 'legacy',
     'font-family-no-duplicate-names': true,
-    'function-calc-no-invalid': true,
+    'font-family-name-quotes': 'always-unless-keyword',
+    'selector-class-pattern': '^[a-zA-Z][a-zA-Z0-9]+$',
+    'selector-pseudo-element-colon-notation': 'single',
     'function-calc-no-unspaced-operator': true,
     'unit-no-unknown': true,
     'property-no-unknown': [true, { severity: 'warning' }],
